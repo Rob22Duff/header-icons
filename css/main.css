@@ -1,7 +1,61 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section img {
+  width: 40px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  color: #fff;
+  font-size: 1.125rem;
+  width: 33.333%;
+  text-align: center;
+  border: 1px solid #a63f38;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: .4em;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #a63f38;
 }
